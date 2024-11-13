@@ -54,7 +54,7 @@ function App() {
         },
         body: JSON.stringify({
           fileName: fileName, // Parámetro con el nombre del archivo
-        }),
+        })
       });
       
       if (!response.ok) {
